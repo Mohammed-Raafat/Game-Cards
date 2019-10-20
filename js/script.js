@@ -32,7 +32,7 @@ NOTES:
 var charactersList = [
     {
         id: 'the-barbarian',
-        name: 'The Barbarian 0',
+        name: 'The Barbarian',
         imgPath: 'images/1.png',
         imgAlt: 'The Barbarian Character',
         levelNum: 4,
@@ -45,7 +45,7 @@ var charactersList = [
     },
     {
         id: 'the-knight',
-        name: 'The Knight 1',
+        name: 'The Knight',
         imgPath: 'images/2.png',
         imgAlt: 'The Knight Character',
         levelNum: 5,
@@ -58,7 +58,7 @@ var charactersList = [
     },
     {
         id: 'the-giant',
-        name: 'The Giant 2',
+        name: 'The Giant',
         imgPath: 'images/3.png',
         imgAlt: 'The Giant Character',
         levelNum: 7,
