@@ -181,13 +181,10 @@ function createCharacter(charObj, display) {
     costSpan.textContent = 'Cost';
 }
 
-// This loop is to create all characters and put them inside the general div called character, and make the first one only appear.
 for (let i = 0; i < charactersList.length; i++) {
-    if (i === 0) { // Make the first one appear.
-        createCharacter(charactersList[i], 'block');
-    } else { // All other characters will be created but with display:none.
-        createCharacter(charactersList[i], 'none');
-    }
+    // Make the first one appear.
+    // All other characters will be created but with display:none.
+        createCharacter(charactersList[i], (i == 0 ? 'block' : 'none'));
 }
 
 // These variables are used inside changeCard() function
