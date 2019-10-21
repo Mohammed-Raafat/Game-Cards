@@ -181,6 +181,7 @@ function createCharacter(charObj, display) {
     costSpan.textContent = 'Cost';
 }
 
+// This loop is to create all characters and put them inside the general div called character, and make the first one only appear.
 for (let i = 0; i < charactersList.length; i++) {
     // Make the first one appear.
     // All other characters will be created but with display:none.
